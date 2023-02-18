@@ -1,6 +1,6 @@
 # bank question
 # Author Audrey Fitzgerald
-# 
+# use integer rather than float
 
 print ("enter your amount")
 x = int(input())
