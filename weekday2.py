@@ -4,7 +4,7 @@
 import datetime   #https://pynative.com/python-get-the-day-of-week/
 
 # given date
-x_date = datetime.date(2023, 2, 27)
+x_date = datetime.datetime.now()  #https://phoenixnap.com/kb/get-current-date-time-python#:
 no = x_date.weekday()
 
 if no < 5:
