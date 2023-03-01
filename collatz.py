@@ -21,7 +21,9 @@ num = int(input("Enter a number: "))
 while num > 1:  #put this in so sequence would stop at 1
    if num % 2 == 0:  
       num //= 2
-      print(num)
+      #print(num) #didn't print it as a list, another student assisted me here
+      print(num, end=" ")
    else:
       num = (num * 3) + 1  # == was preventing the program from running
-      print(num)
+      #print(num)
+      print(num, end=" ") # forgot space between num, end which resulted in a string of numbers rather than individual ones
